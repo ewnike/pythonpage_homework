@@ -37,7 +37,11 @@
   height:50px;
   width: 200px;
   box-shadow: 3px 3px 3px black;
+}
 
+button{
+  background-color: #009AC7;
+  color: white;
 }
 
 #Button-Bar{
