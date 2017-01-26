@@ -4,37 +4,32 @@
   <meta charset="utf-8">
   <title>pythonpage_homework</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script>
-  function howdy(){
-    console.log('howdy')
-  }
-  </script>
 </head>
 
 <body>
   <div id="wrapper">
     <div id= "header">
       <img id = "python_logo"  src="python.png" alt = "python logo" >
-        <div class= "search-button">
+        <div id = "search-button">
           <p>Text Size:<span style="color:yellow">Large|Small</span></p>
-            <form>
+            <form class="formsettings">
               <input type="text"  placeholder="Search..." required>
               <input type="button" value="Go">
             </form>
+          </div>
         </div>
-    </div>
-    <div id = "Button-Bar">
-      <button type="submit" class="msgBtn" onClick= "howdy()" >About</button>
+      <div id = "Button-Bar">
+      <button type="submit" class="msgBtn" onClick= "return false;" >About</button>
       <button type="submit" class="msgBtn" onClick="return false;">Downloads</button>
-      <button type = "submit"class="msgBtn">Documentation</button>
+      <button type = "submit"class="msgBtn" onClick="return false;">Documentation</button>
       <button type="submit" class="msgBtn" onClick="return false;">Community</button>
       <button type="submit" class="msgBtn" onClick="return false;">News</button>
       <button type="submit" class="msgBtn" onClick="return false;">Events</button>
     </div>
 
     <div id = "navigation">
-        <p class = "squeeze"><span style = "color:yellow">>> </span><a href="https://www.google.com">Docs</a></p>
-        <p class = "squeeze"><span style = "color:yellow">>> </span><a href="https://www.google.com">Audio/Visual Talks</a></p>
+        <p class = "squeeze"><span style = "color:yellow">>> </span><a href="#">Docs</a></p>
+        <p class = "squeeze"><span style = "color:yellow">>> </span><a href="#">Audio/Visual Talks</a></p>
         <p class = "squeeze"><span style = "color:yellow">>> </span><a href="#">Beginner's Guide</a></p>
         <p class = "squeeze"><span style = "color:yellow">>> </span><a href="#">Developer's Guide</a></p>
         <p class = "squeeze"><span style = "color:yellow">>> </span><a href="#">PEP Index</a></p>
@@ -90,7 +85,5 @@
                <p class="bottom"><a href="#">Submit Website Bugs</a></p>
                <p class ="footer">Copyright©2001-2016.</p>
            </div>
-          </div>
-        </div>
       </body>
-    </html>
+  </html>
