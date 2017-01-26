@@ -17,19 +17,27 @@
   display:inline-block;
 }
 
-#top-text{
-  vertical-align: top;
-  display:inline-block;
-  margin-left: 360px;
-  margin-top: 15px;
-}
-
 #search-button {
   height: 100px;
   width:200px;
+  text-align: center;
   vertical-align: top;
   display:inline-block;
-  margin-left: 355px;
+  margin-left: 345px;
+}
+
+.yellow{
+  color: yellow;
+}
+
+#formsettings{
+  background-color: #36454F;
+  border-radius: 15px;
+  padding-top: 20px;
+  height:50px;
+  width: 200px;
+  box-shadow: 3px 3px 3px black;
+
 }
 
 #Button-Bar{
