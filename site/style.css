@@ -96,6 +96,7 @@
   height:275px;
   width:950px;
   background-color: white;
+
 }
 
 #container p{
@@ -104,13 +105,15 @@
 
 #Getting_Started{
   width: 420px;
-  height:275px;
+  height:255px;
   vertical-align: top;
   display:inline-block;
   background-color: white;
   text-align: center;
   margin-left: 25px;
   margin-right: 25px;
+  border-top: 5px solid blue;
+  margin-top: 15px;
 }
 
 #Getting_Started a{
@@ -120,13 +123,15 @@
 
 #applications{
   width:420px;
-  height: 275px;
+  height: 255px;
   vertical-align: top;
   display: inline-block;
   background-color: white;
   text-align: center;
   margin-right: 25px;
   margin-left: 25px;
+  border-top: 5px solid blue;
+  margin-top: 15px;
 }
 
 #applications a{
@@ -141,6 +146,10 @@
 
 h2{
   font-size: 20px;
+}
+
+.gun {
+  list-style: square;
 }
 
 #Bottom_Bar{
