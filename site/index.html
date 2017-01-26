@@ -4,6 +4,11 @@
   <meta charset="utf-8">
   <title>pythonpage_homework</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script>
+  function howdy(){
+    console.log('howdy')
+  }
+  </script>
 </head>
 
 <body>
@@ -19,17 +24,17 @@
         </div>
     </div>
     <div id = "Button-Bar">
-      <button type="submit" class="msgBtn" onClick="return false;" >About</button>
-      <button type="submit" class="msgBtn2" onClick="return false;">Downloads</button>
-      <button class="msgBtn3">Documentation</button>
-      <button type="submit" class="msgBtn4" onClick="return false;">Community</button>
-      <button type="submit" class="msgBtn5" onClick="return false;">News</button>
-      <button type="submit" class="msgBtn6" onClick="return false;">Events</button>
+      <button type="submit" class="msgBtn" onClick= "howdy()" >About</button>
+      <button type="submit" class="msgBtn" onClick="return false;">Downloads</button>
+      <button type = "submit"class="msgBtn">Documentation</button>
+      <button type="submit" class="msgBtn" onClick="return false;">Community</button>
+      <button type="submit" class="msgBtn" onClick="return false;">News</button>
+      <button type="submit" class="msgBtn" onClick="return false;">Events</button>
     </div>
 
     <div id = "navigation">
-        <p class = "squeeze"><span style = "color:yellow">>> </span><a href="#">Docs</a></p>
-        <p class = "squeeze"><span style = "color:yellow">>> </span><a href="#">Audio/Visual Talks</a></p>
+        <p class = "squeeze"><span style = "color:yellow">>> </span><a href="https://www.google.com">Docs</a></p>
+        <p class = "squeeze"><span style = "color:yellow">>> </span><a href="https://www.google.com">Audio/Visual Talks</a></p>
         <p class = "squeeze"><span style = "color:yellow">>> </span><a href="#">Beginner's Guide</a></p>
         <p class = "squeeze"><span style = "color:yellow">>> </span><a href="#">Developer's Guide</a></p>
         <p class = "squeeze"><span style = "color:yellow">>> </span><a href="#">PEP Index</a></p>
@@ -65,7 +70,7 @@
         </div>
         <div id = "applications">
             <h2>Applications</h2>
-            <p class="script">The <a id="PYP">Python Package Index(PyPI)</a> hosts thousands of
+            <p class="script">The <a class="PYP">Python Package Index(PyPI)</a> hosts thousands of
               third-party modules for Python. Both Python's
               standard library and the community-
               contributed modules allow for endless
